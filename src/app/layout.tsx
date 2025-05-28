@@ -1,4 +1,4 @@
-import "@/shared/styles/globals.css";
+import "@/shared/styles/globals.css"
 
 import { type Metadata } from "next";
 
@@ -16,9 +16,9 @@ export default async function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
+      className="h-screen overflow-hidden"
     >
-      <head></head>
-      <body className="h-full overflow-hidden">
+      <body className="h-full">
         <TRPCReactProvider>
           <ThemeProvider
             attribute="class"

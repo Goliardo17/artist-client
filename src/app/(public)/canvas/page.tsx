@@ -1,9 +1,8 @@
 import { Canvas } from "@/widgets/canvas";
 
 export default function CanvasPage() {
-
   return (
-    <main>
+    <main className="h-full">
       <Canvas />
     </main>
   );
